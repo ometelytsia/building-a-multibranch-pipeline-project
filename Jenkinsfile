@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello world from feature branch!"'
+                sh 'echo "Hello world from feature branch 2!"'
             }
         }
     }
